@@ -19,6 +19,9 @@ languages: ["en", "fr"]
 #   compress: true
 #   dist: false
 #   shortcodes: true
+# toc: true -> display numbers in toc
+toc:
+  sort: false
 readme_index:
   with_frontmatter: true
 plugins:
