@@ -1,27 +1,29 @@
 # Titre du siteweb qui apparaitra dans google, etc.
-title: Exemple de SiteWeb
-# Description (Optionnelle) du site web
-description: Documentations permettant l'utilisation de Jekyll et Github
-#########################################################################
-###  Pour l'url, il doit correspondre a votre site heberge sur GitHub.
-###  EXEMPLE --> url: https://nonbinarygeek.github.io   
-###  Afin d'utiliser un autre nom de domaine, utilisez le fichier CNAME  
-###  sous root et simplement indiquer l'alternatif.                      
-###  EXEMPLE --> echo 'docs.nonbinarygeek.ca' > CNAME                    
-url: https://github.com/nonBinaryGeek/jekyll-modele
-# baseurl: (URL Distant sur lequel s'appuit le theme) NE PAS CHANGER
-remote_theme: nonBinaryGeek/jekyll-modele
+title: Jekyll Modèle
+
+# Description - Décriver brièvement votre site web !
+description: Documentations permettant l'utilisation de Jekyll et Github Pages
+
+#  l'url doit correspondre a votre site heberge sur GitHub.
+#  EXEMPLE --> url: https://nonbinarygeek.github.io   
+#  Afin d'utiliser un autre nom de domaine, utilisez le fichier CNAME sous root et simplement indiquer l'alternatif.                      
+#  EXEMPLE --> echo 'docs.nonbinarygeek.ca' > CNAME                    
+url: https://<github.username>.github.io
+
 # languages (Selon la ou les preferences)
-# default language : "en"
 languages: ["en", "fr"]
-### IL N'EST PAS NECESSAIRE DE MODIFIER QUOI QUE CE SOIT CI-BAS ###
+
+# toc: true -> display numbers in toc
+toc:
+  sort: false
+
+### <------- IL N'EST PAS NECESSAIRE DE MODIFIER QUOI QUE CE SOIT CI-BAS -------> ###
+baseurl: ""
+remote_theme: nonBinaryGeek/jekyll-modele
 # debug:
 #   compress: true
 #   dist: false
 #   shortcodes: true
-# toc: true -> display numbers in toc
-toc:
-  sort: false
 readme_index:
   with_frontmatter: true
 plugins:

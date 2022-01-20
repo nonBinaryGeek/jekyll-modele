@@ -1,6 +1,6 @@
 ---
 source: page.path
-sort: 2
+sort: 1
 ---
 
 # Répertoire 01
